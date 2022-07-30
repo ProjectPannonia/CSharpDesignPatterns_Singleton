@@ -1,6 +1,6 @@
 ﻿namespace CSharpDesignPatterns_Singleton
 {
-    // Non thead safe singleton example
+    // Non thread safe singleton example
     public sealed class NoThreadSafeSingleton
     {
 
@@ -18,12 +18,6 @@
              
                 return instance;
             }
-
-
         }
-        
-
-
-
     }
 }
