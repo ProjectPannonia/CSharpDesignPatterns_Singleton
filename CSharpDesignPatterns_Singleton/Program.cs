@@ -10,6 +10,7 @@ namespace CSharpDesignPatterns_Singleton
     {
         static void Main(string[] args)
         {
+            ThreadSafeSingleton.
         }
     }
 }
