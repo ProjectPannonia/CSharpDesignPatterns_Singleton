@@ -10,7 +10,8 @@ namespace CSharpDesignPatterns_Singleton
     {
         static void Main(string[] args)
         {
-            ThreadSafeSingleton.
+            ThreadSafeSingleton tss = ThreadSafeSingleton.Instance;
+            ThreadSafeSingleton tss2 = ThreadSafeSingleton.Instance;
         }
     }
 }
